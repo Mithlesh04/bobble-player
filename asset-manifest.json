@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/bobble-player/static/css/main.45ea1517.chunk.css",
+    "main.js": "/bobble-player/static/js/main.ae075e4a.chunk.js",
+    "main.js.map": "/bobble-player/static/js/main.ae075e4a.chunk.js.map",
+    "runtime-main.js": "/bobble-player/static/js/runtime-main.41bc99c1.js",
+    "runtime-main.js.map": "/bobble-player/static/js/runtime-main.41bc99c1.js.map",
+    "static/js/2.a5b1160e.chunk.js": "/bobble-player/static/js/2.a5b1160e.chunk.js",
+    "static/js/2.a5b1160e.chunk.js.map": "/bobble-player/static/js/2.a5b1160e.chunk.js.map",
+    "index.html": "/bobble-player/index.html",
+    "static/css/main.45ea1517.chunk.css.map": "/bobble-player/static/css/main.45ea1517.chunk.css.map",
+    "static/js/2.a5b1160e.chunk.js.LICENSE.txt": "/bobble-player/static/js/2.a5b1160e.chunk.js.LICENSE.txt",
+    "static/media/B1.f0eb6811.png": "/bobble-player/static/media/B1.f0eb6811.png",
+    "static/media/Bk-blue.270ec651.png": "/bobble-player/static/media/Bk-blue.270ec651.png",
+    "static/media/Bk-green.b8f76f83.png": "/bobble-player/static/media/Bk-green.b8f76f83.png",
+    "static/media/Bk-grey.7cdc9553.png": "/bobble-player/static/media/Bk-grey.7cdc9553.png",
+    "static/media/Bk-yellow.ce7dccb2.png": "/bobble-player/static/media/Bk-yellow.ce7dccb2.png",
+    "static/media/Bobble-Blue.69428770.png": "/bobble-player/static/media/Bobble-Blue.69428770.png",
+    "static/media/Bobble-Gold.0106a218.png": "/bobble-player/static/media/Bobble-Gold.0106a218.png",
+    "static/media/Bobble-Green.22b16f02.png": "/bobble-player/static/media/Bobble-Green.22b16f02.png",
+    "static/media/Bobble-Orange.12cfbff8.png": "/bobble-player/static/media/Bobble-Orange.12cfbff8.png",
+    "static/media/Bobble-Purple.d88c7648.png": "/bobble-player/static/media/Bobble-Purple.d88c7648.png",
+    "static/media/BobblesGroup.8fb9f571.svg": "/bobble-player/static/media/BobblesGroup.8fb9f571.svg",
+    "static/media/Captain-Orange.1ddb447b.png": "/bobble-player/static/media/Captain-Orange.1ddb447b.png",
+    "static/media/Check-shadow.95fcbf82.png": "/bobble-player/static/media/Check-shadow.95fcbf82.png",
+    "static/media/index.css": "/bobble-player/static/media/Montserrat-Regular.3cd78665.ttf",
+    "static/media/G8.506eb80d.png": "/bobble-player/static/media/G8.506eb80d.png",
+    "static/media/Gold-Bobble.0106a218.png": "/bobble-player/static/media/Gold-Bobble.0106a218.png",
+    "static/media/O7.f8e08c85.png": "/bobble-player/static/media/O7.f8e08c85.png",
+    "static/media/P10.497f7313.png": "/bobble-player/static/media/P10.497f7313.png",
+    "static/media/front-bg-container.10389f81.svg": "/bobble-player/static/media/front-bg-container.10389f81.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41bc99c1.js",
+    "static/js/2.a5b1160e.chunk.js",
+    "static/css/main.45ea1517.chunk.css",
+    "static/js/main.ae075e4a.chunk.js"
+  ]
+}
