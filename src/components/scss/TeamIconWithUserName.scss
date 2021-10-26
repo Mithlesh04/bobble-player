@@ -1,0 +1,17 @@
+
+.TeamIconWithUserName-container{
+    font-size: 36px;
+    font-family: 'Dimbo';
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .TeamIconWithUserName-main{
+        justify-content: center;
+        button{
+            border-radius: 10px;
+        }
+    }
+
+}

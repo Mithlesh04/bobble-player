@@ -1,0 +1,186 @@
+
+.bobble-logo{
+    width: auto;
+    height: 0;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+
+    .bobbleParyText{
+        font-family:'Dimbo';
+        font-size: 3.2em;
+        -webkit-text-stroke: 2px black;
+        color: white;
+        margin-bottom : -22px;
+        text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+        paint-order: stroke fill; 
+        margin-left: -10px;
+        span{
+            display: inline-block;
+        }
+        span:nth-child(1){
+            transform: translate(10px, 4px) rotate(354deg)
+        }
+        span:nth-child(2){
+            transform: translate(9px, 1px) rotate(356deg)
+        }
+        span:nth-child(3){
+            transform: translate(10px, -2px) rotate(356deg)
+        }
+        span:nth-child(4){
+            transform: translate(10px, -4px) rotate(357deg)
+        }
+        span:nth-child(5){
+            transform: translate(10px, -6px) rotate(357deg)
+        }
+        span:nth-child(6){
+            transform: translate(10px, -6px) rotate(357deg)
+        }
+        span:nth-child(7){
+            transform: translate(10px, -6px) rotate(2deg)
+        }
+        span:nth-child(8){
+            transform: translate(8px, -6px) rotate(8deg)
+        }
+        span:nth-child(9){
+            transform: translate(8px, -4px) rotate(8deg)
+        }
+        span:nth-child(10){
+            transform: translate(8px, 0px) rotate(18deg)
+        }
+        span:nth-child(11){
+            transform: translate(10px, 5px) rotate(18deg)
+        }
+    }
+}
+
+
+.login-container{
+    // padding:0px 15px ;
+    background:#ffffff30;
+    border-radius: 15px;
+    display:flex;
+    justify-content:center;
+    align-items:Center;
+    flex-direction:column;
+    font-family:'Dimbo';
+    &>div{
+        margin-bottom:20px;
+    }
+    .submit-btn{
+        width:147px;
+        height:59px;
+        margin-top:10px;
+        font-family:'Dimbo';
+        padding : 10px 20px;
+        font-size : 20px;
+        background : white;
+        color : black;
+        box-shadow:4px 4px #0098BD;
+        border:2px solid black;
+        border-radius:2px;
+        font-size:28px;
+    }
+    .error-msg{
+        color : red
+    }
+   
+    .input-container{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    input{
+        width:229px;
+        height:50px;
+        font-family:'Dimbo' ;
+        font-size : 18px ;
+        text-align:center ;
+        padding : 10px ;
+        border-radius:2px ;
+        border:2px solid black;
+        box-shadow:4px 4px #8F2F8D;
+        font-size:28px ;
+        text-align: center;
+        background-color: #fff;
+        &::placeholder{
+            font-weight:bold;
+            color:#000;
+            opacity: 1;
+            font-weight: normal;
+        }
+    }
+
+    .askHost{
+        font-family:'Montserrat';
+        font-size : 18px;
+        margin-top : 50px;
+        text-align:center;
+        font-style:normal;
+        font-weight:500;
+    }
+
+}
+
+
+.ButtonsList{
+    width: auto;
+    height: 0;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+
+
+    .team-name{
+        font-family:'Dimbo';
+        border-radius:10px;
+        padding:10px 10px;
+        margin-top: 30px;
+        margin-bottom:0.5em;
+        background:#E57934;
+        height: 55px;
+        font-size: 33px;
+        text-transform: capitalize;
+        img{
+            position:absolute;
+            left: 0;
+            margin-left:75px;
+            width:100px;
+            border-radius: 10px;
+        }
+    }
+
+    .team-dtls{
+        margin-bottom:20px;
+        margin-top:20px;
+        padding : 10px;
+        border : 2px solid black;
+        border-radius:0;
+        background-color: #fff;
+        button{
+            background-color: transparent;
+            border : unset;
+            font-size:30px;
+            font-family:'Dimbo';
+            color:black;
+        }
+    }
+    .team-dtls:nth-child(1){
+        box-shadow : 4px 4px #C65638;
+    }
+    .team-dtls:nth-child(2){
+        box-shadow : 4px 4px #409848;
+    }
+    .team-dtls:nth-child(3){
+        box-shadow : 4px 4px #31AEE4;
+    }
+    .team-dtls:nth-child(4){
+        box-shadow : 4px 4px #8F2F8D;
+    }
+}

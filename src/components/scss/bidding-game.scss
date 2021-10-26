@@ -1,0 +1,254 @@
+  .btnContainer{
+    position: relative;
+    font-family : 'Dimbo';
+    padding-left : 10px;
+    padding-right : 10px;
+    padding-top: 10px;
+
+    .title{
+        margin-right : 10px;
+        font-weight:400;
+        font-size : 30px;
+        color : #000;
+    }
+    .btnBox{
+        width : 132px;
+        height : 79px;
+        border: 3px solid #000;
+        .icon-lives{
+            img{
+                width:64.44px;
+                height:63px;
+            }
+            position : absolute;
+            margin-top : -10px;
+            margin-left : -15px;
+        }
+        .icon-bobble{
+            img{
+                width:74px;
+                height:84px;
+                padding : 5px;
+            }
+            position : absolute;
+            margin-top : -25px;
+            margin-left : -25px;
+        }
+        .lives-score{
+            font-weight : 400;
+            font-size : 64px;
+            color : black;
+            margin-right : 25px;
+        }
+        .bobble-score{
+            font-weight : 400;
+            font-size : 64px;
+            color : black;
+            margin-right : 15px;
+        }
+    }
+
+}
+
+.btnLockItIn{
+   text-align: center;
+   margin-top : 40px;
+   padding-bottom : 30px;
+   button{
+    width : 169px;
+    height : 59px;
+    color : #000;
+    border : 1px solid #000;
+    border-radius : 2px;
+    background:#fff;
+    box-shadow : 4px 4px #8F2F8D;
+    text-transform:unset;
+    font-family : 'Dimbo';
+    font-weight : 400;
+    font-size : 28px;
+    &:hover{
+        border : 1px solid;
+        background : white
+    }
+   }
+}
+
+.allTeambtn{
+    position : relative;
+    width : 91px;
+    height : 87px;
+    margin-left : -2.6rem;
+    button{
+        border: 1px solid #EEA862;
+        background : #EEA862;
+        font-family : 'Dimbo';
+        font-weight : 400;
+        font-size:20px;
+        color : #000;
+        text-align:center;
+        border-radius:0;
+        text-transform:capitalize;
+        &:hover{
+            background : #EEA862
+        }
+    }
+}
+
+.userName{
+ display: flex;
+ justify-content: center;
+  button{
+    width : 208px;
+    height : 60px;
+    margin-top : 40px;
+    background: #FF924C;
+    color: #000;
+    border-radius : 10px;
+    font-weight:500;
+    font-family : 'Montserrat';
+    font-size : 26px;
+    text-transform:capitalize;
+    box-shadow:unset;
+    img{
+        width : 70.53px;
+        height : 74px;
+        margin-left : -90px;
+        margin-top : -30px;
+        margin-right : 30px;
+    }
+    &:hover{
+        background : #FF924C;
+        box-shadow:unset;
+    }
+  }
+}
+
+.team-table{
+    font-family:'Dimbo';
+    font-weight : 400;
+    width : 100%;
+    color : #000;
+    margin-top:30px;
+    overflow:auto;
+
+    thead{
+        tr{
+            th{
+                padding : 5px;
+                background : #FFF68B;
+            }
+            th:first-child{
+                border-top-style: hidden;
+                border-left-style: hidden;
+                background : transparent;
+            }
+        }
+    }
+    tbody{
+        tr{
+            td{
+                padding : 10px;
+                text-align:center;
+            }
+            td:first-child{
+                div{
+                    display : flex;
+                    div{
+                        align-self:end;
+                    }
+                    img{
+                        width:32px;
+                        margin-left:3px;
+                    }
+                }
+            }
+            
+        }
+        
+        tr:nth-child(4n+2), tr:nth-child(4n + 3){
+            background : #FFF68B;
+        }
+        tr:nth-child(4n+4), tr:nth-child(4n + 5) {
+            background:#FFD368
+        }
+        tr:first-child{
+            background:#F79AC0;
+            font-size:28px;
+        }
+        tr:nth-child(4n+3) td, tr:nth-child(4n+5) td {
+            font-family:'Montserrat';
+            font-weight: normal;
+            font-size : 18px;
+        }
+        tr:nth-child(4n+3)  td:nth-child(1) , tr:nth-child(4n+5)  td:nth-child(1) {
+            font-family:'Montserrat';
+            font-size : 12px;
+        }
+        tr td:nth-child(1){
+            text-align:left;
+        }
+        tr:nth-child(2n) td {
+            font-size : 20px;
+        }
+    }
+}
+
+.timer-clock{
+    margin-bottom:50px;
+}
+
+.vote-now{
+    color:#4F4F4F;
+    margin-bottom:80px;
+}
+.bidding-now{
+    color:#4F4F4F;
+    margin-bottom:50px;
+    margin-top:10px;
+}
+.currentCaptain{
+    margin-top: 60px;
+    text-align: center;
+    font-weight : 400;
+    font-family : 'Montserrat';
+    font-size :  16px;
+    display : flex;
+    div{
+        align-self:end;
+        margin-left : 10px;
+    }
+    img{
+        width : 60.44px;
+        margin-left: 30px;
+    }
+}
+.teamLiveLeft{
+    font-family : 'Dimbo';
+    font-weight : 400;
+    font-size : 30px;
+    text-align : center;
+}
+
+.Waiting{
+    width: 100%;
+    .waiting-main{
+        color: #000;
+        font-weight: 400;
+        font-family: 'Dimbo';
+        font-size: 36px;
+        margin-top: 150px;
+        .chooseACaptain{
+            text-align: center;
+        }
+        .captain-img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+            img{
+                width: 120.9px;
+                height: 126px
+            }
+        }
+    }
+}
